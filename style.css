@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 40px;
+text-align: center;
+padding-top: 8px;
+ background-color: #b67ac7;
+ color:#333;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 25px;
+    font-family: cursive;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    margin-right: 30px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(87, 84, 84);
+    font-weight: 400;
+    margin-left: 40px;
+}
+.navbar ul li a:hover{
+color: rgb(175, 104, 5);
+}
+.navbar p{
+    left: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.login{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 40px;
+    bottom: 7px;
+}
+
+.container{
+    margin-top: 100px ;
+    width: 1000px;
+    height: 600px;
+    background: url('s3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    opacity: 0.8;
+}
+.container h1{
+    position: absolute;
+    left: 480px;
+    top: 300px;
+font-size: 40px;
+font-weight:800;
+letter-spacing: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+span{
+    position: relative;
+    top:20px;
+    left: -140px;
+}
+h4{
+position: absolute;
+left: 600px;
+top: 500px;
+font-weight: 300;
+font-size: 15px;
+letter-spacing: 3px;
+font-family:'Times New Roman', Times, serif;
+}
+.logo{
+    position: relative;
+    bottom: 110px;
+    z-index: -1;
+}
+.container h5{
+    position:absolute;
+    margin: 3px;
+    padding: 7px;
+    width: 150px;
+    height: 38px;
+    left: 600px;
+top: 550px;
+    border: 3px solid black;
+    text-align: center;
+    cursor: pointer;
+    font-family: cursive;
+}
+.container h5:hover{
+    background-color:#000;
+    color: #fff;
+}
+#our h1{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+font-weight:800;
+letter-spacing: 10px;
+font-family:Arial, Helvetica, sans-serif;
+
+
+}
+#right{
+    position: relative;
+    width: 380px;
+    height: 250px;
+    float: right;
+    top: 40px;
+    right: 150px;
+}
+.box{position: absolute;
+    width: 650px;
+    height: 400px;
+}
+.box h3{
+    float: right;
+   margin-top: 80px;
+   text-indent: 90px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:700;
+   letter-spacing: 5px;
+   line-height: 30px;
+}
+.box p{
+    float: right;
+    margin-top: 15px;
+    text-align: right;
+    text-indent: 280px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+}
+.box h5{float: right;
+        margin-top: 20px;
+        padding: 7px;
+        width: 150px;
+        height: 38px;
+        border: 3px solid black;
+        text-align: center;
+        cursor: pointer;
+        font-family: cursive;
+    }
+    .box h5:hover{
+        background-color:#000;
+        color: #fff;
+}
+#left{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 400px;
+    transform: translateY(-20px);
+     box-shadow: 32px 32px rgb(106, 209, 106);
+            
+}
+.box1{
+        position: absolute;
+        width: 650px;
+        height: 400px;
+        right: 100px;
+      margin-top: -300px;
+}
+.box1 h3{
+
+   margin-top: 50px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:700;
+   letter-spacing: 5px;
+   line-height: 30px;
+}
+.box1 p{
+    margin-top: 15px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+}
+.box1 h5{
+    margin-top: 20px;
+    padding: 7px;
+    width: 150px;
+    height: 38px;
+    border: 3px solid black;
+    text-align: center;
+    cursor: pointer;
+    font-family: cursive;
+}
+.box1 h5:hover{
+    background-color:#000;
+    color: #fff;
+}
+#simple{
+margin-left: 50px;
+max-width: 1200px;
+}
+#simple h1{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+font-weight:800;
+letter-spacing: 10px;
+font-family:Arial, Helvetica, sans-serif;
+}
+#simple p{
+
+text-align: center;
+justify-content: center;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 4px;
+    line-height: 25px;
+    font-size: 1.1em;
+}
+.leaf{
+    margin-top: 40px;
+    margin-left: 30px;
+    background: url(leaf.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
+.leaf p{
+    margin-top: 50px;
+    width: 800px;
+    position: absolute;
+left: 400px;
+word-wrap: break-word;
+font-family: cursive;
+}
+.leaf h5{
+        position: relative;
+        padding: 7px;
+        width: 150px;
+        height: 38px;
+        top: 210px;
+        left: 220px;
+        border: 3px solid black;
+        text-align: center;
+        cursor: pointer;
+        font-family: cursive;
+    }
+ .leaf h5:hover{
+        background-color:#000;
+        color: #fff;
+    }
+    
+ #gallery {
+     margin: 50px;
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 20vw);
+   grid-gap: 25px;
+    }
+.gallery__img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ display: block; 
+}
+h1{
+margin-top: 50px;
+position: relative;
+font-family:sans-serif;
+text-align: center;
+font-size: 3em;
+}
+
+#contact {
+    margin-top: 25px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+.lilac{
+    margin-left: 30px;
+    text-align: right;
+}
+.lilac p{
+    margin-top: 15px;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    line-height: 25px;
+}
+.info{
+    text-align: center;
+}
+.info img{
+    margin:6px 2px 3px 4px;
+    width: 30px;
+    height: 35px;
+}
+.info p{
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    line-height: 20px;
+}
+
+.loginbox {
+    width: 320px;
+    height: 300px;
+    
+    color: rgb(7, 7, 7);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+ .loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+} 
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.loginbox input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid rgb(146, 145, 145);
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+}
+
+.loginbox h5{
+    margin-top: 20px;
+    padding: 7px;
+    width: 150px;
+    height: 38px;
+    border: 3px solid black;
+    text-align: center;
+    cursor: pointer;
+    font-family: cursive;
+}
+h5:hover{
+    background-color:#000;
+    color: #fff;
+}
+footer{
+    padding: 3px;
+    text-align: center;
+    background-color: darksalmon;
+    color: #fff;
+}
